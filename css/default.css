@@ -1,0 +1,65 @@
+*{margin:0;padding:0;}
+body {font-size:14px;color:#4b4b4b;font-family: 'Arimo', sans-serif;word-spacing: 2px;letter-spacing: 0px;background:url(../images/body_bkg.png) top left repeat-x;}
+img{border:none;}
+img:hover{cursor:pointer}
+input{border:0;border-style:none;background: white;;margin:0;padding:0;outline:none;}
+textarea{display:block;width:100%;border-style: none;height:130px;resize:none;}
+table{width:100%;border-collapse:collapse;}
+td{margin:0;padding:0;}
+a{font-size:14px;text-decoration:none;color:#eeeeee;}
+a:active, a:focus { 
+    border: none;
+    outline: none;
+}
+p{
+	line-height:14px;
+}
+li{
+	list-style:none;
+}
+.clear{width:100%;clear:both;height:0;overflow: hidden;}
+#shadow{
+	display:none;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:#032f39;
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	 opacity : 0.5;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+h1,h2,h3,h4,h5,h6{
+font-family: "Arimo", arial, verdana, sans-serif;
+font-weight:normal;
+}
+
+thead th,
+tbody th{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+.menu{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+blockquote{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+.template{
+	display:none;
+}
+
+
+
